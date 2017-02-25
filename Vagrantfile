@@ -36,7 +36,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             "2.2.2" => [
               { name: "bundler" },
               { name: "rails" },
-              { name: "twitter" },
               { name: "spork-rails"},
               { name: "sqlite3" }                          
             ]
